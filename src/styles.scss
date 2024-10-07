@@ -1,0 +1,99 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/type';
+@import 'bootstrap/scss/forms';
+@import 'bootstrap/scss/buttons';
+@import 'bootstrap/scss/alert';
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    margin: 50px 0px 0px 0px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    background: black;
+    color: white;
+}
+
+.customGreen {
+    color: #a2cac1;
+}
+
+.white {
+    color: white;
+}
+
+.gray {
+    background: gray !important;
+    border: gray !important;
+}
+
+.noBullets {
+    list-style-type: none;
+}
+
+.centered {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 825px;
+    height: auto;
+    border-radius: 10;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    border: 1px solid rgb(85, 85, 85);
+    background: black;
+}
+
+.btn:hover {
+    border-color: grey;
+    background: #a2cac1;
+}
+
+.pre {
+    height: auto;
+    max-height: 100%;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.btn {
+    padding: 10px 20px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #a2cac1;
+    border-radius: 8px;
+    border-color: #a2cac1;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 93px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    z-index: 999;
+    border-radius: 8px;
+}
